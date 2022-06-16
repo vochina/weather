@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of the vochina/weather.
+ *
+ * (c) vochina <wuzuoqiang@gmail.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Vochina\Weather\Tests;
 
 use GuzzleHttp\Client;
@@ -83,7 +92,6 @@ class WeatherTest extends TestCase
         $w->getWeather('重庆', 'foo');
 
         $this->fail('Failed to assert getWeather throw exception with invalid argument.');
-
     }
 
     public function testGetWeatherWithInvalidFormat()
@@ -97,7 +105,6 @@ class WeatherTest extends TestCase
         $w->getWeather('重庆', 'base', 'array');
 
         $this->fail('Failed to assert getWeather throw exception with invalid argument.');
-
     }
 
     public function testGetWeatherWithGuzzleRuntimeException()
