@@ -3,6 +3,8 @@
 
 <p align="center">:rainbow: 基于高德开放平台的 PHP 天气信息组件。</p>
 
+[![Tests](https://github.com/vochina/weather/actions/workflows/tests.yml/badge.svg)](https://github.com/vochina/weather/actions/workflows/tests.yml)
+
 ## 安装
 
 ```sh
