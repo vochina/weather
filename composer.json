@@ -1,0 +1,30 @@
+{
+  "name": "vochina/weather",
+  "description": "A weather SDK.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vochina\\Weather\\": "./src"
+    }
+  },
+  "authors": [
+    {
+      "name": "vochina",
+      "email": "wuzuoqiang@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "mockery/mockery": "^1.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vochina\\Weather\\ServiceProvider"
+      ]
+    }
+  }
+}
