@@ -5,6 +5,7 @@
 
 [![Tests](https://github.com/vochina/weather/actions/workflows/tests.yml/badge.svg)](https://github.com/vochina/weather/actions/workflows/tests.yml)
 
+![StyleCI build status](https://github.styleci.io/repos/504219446/shield)
 ## 安装
 
 ```sh
